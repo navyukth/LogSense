@@ -1,0 +1,42 @@
+# --- Secrets ---
+.env
+.env.local
+*.env
+
+# --- This holds old duplicate/superseded files kept for local reference only ---
+_backup_unused/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+*.egg-info/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Large data & model artifacts (see data/README.md and models/README.md for how to obtain these) ---
+data/raw/
+models/**/*.safetensors
+models/**/*.pt
+models/**/*.bin
+reference/LogLLM-master/ft_model_*/**/*.safetensors
+reference/LogLLM-master/ft_model_*/**/*.pt
+
+# --- Runtime / scratch files produced by scripts ---
+parsed_sessions.csv
+test.csv
+final_explanations.csv
+temp_inference_row.csv
