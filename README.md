@@ -18,9 +18,6 @@ A React dashboard (`frontend/`) visualizes results in real time, and a
 FastAPI backend (`backend/`) serves both stages behind `/analyze` and
 `/live-log` endpoints.
 
-See **[PROJECT_DETAILS.md](PROJECT_DETAILS.md)** for the full write-up:
-architecture, dataset generation process, training details, and results.
-
 ## Repository layout
 
 ```
