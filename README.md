@@ -40,8 +40,14 @@ data/                sample dataset (committed) + full dataset (gitignored, see 
 models/              fine-tuned model configs (weights gitignored, see models/README.md)
 
 docs/                research paper, project report/slides, design docs, screenshots
+```
 
-reference/           the upstream LogLLM repository (unmodified, MIT-licensed), for comparison
+`reference/LogLLM-master/` (the unmodified upstream [LogLLM](https://github.com/guanwei49/LogLLM)
+repo this project's classifier builds on) isn't vendored in this repo — pull
+it yourself if you want to diff against it:
+
+```bash
+git clone https://github.com/guanwei49/LogLLM.git reference/LogLLM-master
 ```
 
 ## Quickstart

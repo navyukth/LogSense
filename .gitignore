@@ -3,8 +3,15 @@
 .env.local
 *.env
 
+# --- Personal/local-only notes, not meant for the public repo ---
+PROJECT_DETAILS.md
+
 # --- This holds old duplicate/superseded files kept for local reference only ---
 _backup_unused/
+
+# --- Unmodified upstream repo, vendored locally for reference only.
+# Clone it yourself: git clone https://github.com/guanwei49/LogLLM.git reference/LogLLM-master
+reference/
 
 # --- Python ---
 __pycache__/
